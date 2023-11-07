@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Vertiefung – Project Caesar Cipher</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="caesar__cipher__wrapper">
+            <form onsubmit="return false">
+                <div>
+                    <textarea id="encryptText" name="encryptText" rows="4" placeholder="write text ..."></textarea>
+                    <input type="number" id="keyInput" name="keyInput" min="1" placeholder="key ..."></input>
+                </div>
+                <div>
+                    <input type="submit" value="encoder" id="btnEncrypt">
+                    <input type="submit" value="decoder" id="btnDecrypt">
+                </div>
+            </form>
+            <div class="output" id="output"></div>
+        </section>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
